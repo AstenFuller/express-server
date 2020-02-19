@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "mkdir public && cp server/app.js public/app.js",
+    "build": "npm run build",
     "test": "mocha test --exit",
     "start": "node server/index.js"
   },
